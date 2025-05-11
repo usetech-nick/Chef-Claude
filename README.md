@@ -40,28 +40,6 @@ Chef Claude is a React web application for finding and displaying recipes. This 
 
 5. Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
 
-## 📋 Project Structure
-```
-chef-claude/
-├── public/
-│   ├── index.html
-│   └── ...
-├── src/
-│   ├── components/
-│   │   ├── Header.js
-│   │   ├── Recipe.js
-│   │   ├── RecipeCard.js
-│   │   └── ...
-│   ├── pages/
-│   │   ├── Home.js
-│   │   ├── RecipeDetail.js
-│   │   └── ...
-│   ├── App.js
-│   ├── index.js
-│   └── ...
-└── package.json
-```
-
 ## 🔄 Usage
 - The home page displays a collection of recipe cards
 - Click on a recipe card to view detailed information
