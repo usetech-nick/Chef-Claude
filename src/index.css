@@ -4,7 +4,9 @@
 
 body {
   margin: 0;
-  font-family: Inter, sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-color: #fffdf9;
+  color: #3e2723;
 }
 
 .navbar {
@@ -12,9 +14,8 @@ body {
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  background-color: #ffff;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1),
-    0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+  background-color: #fff3e0;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-brand {
@@ -31,9 +32,8 @@ body {
 .title {
   font-size: 1.75rem;
   font-weight: 600;
-  color: #3e2723;
+  color: #ff6f00;
 }
-
 
 .main-container {
   display: flex;
@@ -44,17 +44,20 @@ body {
 .form {
   display: flex;
   gap: 1rem;
-  background-color: white; 
+  background-color: #fff8f0;
   padding: 1.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
-.items{
-  margin-left:160px;
+.items {
+  margin-left: 160px;
+  margin-top: 2rem;
 }
 
 .input-text {
   padding: 0.5rem 1rem;
-  border: solid 2px rgb(134, 133, 133) ;
+  border: 2px solid #ffa94d;
   border-radius: 0.5rem;
   outline: none;
   font-size: 1rem;
@@ -64,12 +67,12 @@ body {
 }
 
 .input-text:focus {
-  border-color:rgb(10, 10, 10); 
+  border-color: #ff922b;
 }
 
 .button {
   padding: 0.5rem 1.25rem;
-  background-color: #333333; 
+  background-color: #ff6f00;
   color: white;
   border: none;
   border-radius: 0.5rem;
@@ -79,5 +82,5 @@ body {
 }
 
 .button:hover {
-  background-color: #1a1a1a;
+  background-color: #e65c00;
 }
